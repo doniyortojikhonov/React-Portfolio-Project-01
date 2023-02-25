@@ -1,9 +1,6 @@
 .container.testimonials__container {
     width: 40%;
 }
-article {
-    margin-bottom: 1rem;
-}
 .client__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
@@ -25,4 +22,21 @@ article {
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+}
+
+/* ======================== Media Querries (Medium Devices)====================== */
+@media screen and (max-width: 1024px) {
+    .container.testimonials__container {
+        width: 60%;
+    }
+}
+
+/* ======================== Media Querries (Small Devices)====================== */
+@media screen and (max-width: 600px) {
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    }
+    .client__review {
+        width: var(--container-width-sm);
+    }
 }

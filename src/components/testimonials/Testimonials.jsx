@@ -25,7 +25,7 @@ const Testimonials = () => {
                 </article>
                 <article className="testimonial">
                     <div className="client__avatar">
-                        <img src={AVTR1} alt="Avatar One" />
+                        <img src={AVTR2} alt="Avatar One" />
                     </div>
                     <h5 className="client__name">Ernest Achiever</h5>
                     <small className="client__review">
@@ -37,7 +37,7 @@ const Testimonials = () => {
                 </article>
                 <article className="testimonial">
                     <div className="client__avatar">
-                        <img src={AVTR1} alt="Avatar One" />
+                        <img src={AVTR3} alt="Avatar One" />
                     </div>
                     <h5 className="client__name">Ernest Achiever</h5>
                     <small className="client__review">
@@ -49,7 +49,7 @@ const Testimonials = () => {
                 </article>
                 <article className="testimonial">
                     <div className="client__avatar">
-                        <img src={AVTR1} alt="Avatar One" />
+                        <img src={AVTR4} alt="Avatar One" />
                     </div>
                     <h5 className="client__name">Ernest Achiever</h5>
                     <small className="client__review">
