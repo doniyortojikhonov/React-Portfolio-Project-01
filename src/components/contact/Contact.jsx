@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="container contact__container">
                 <div className="contact__options">
                     <article className="contact__option">
-                        <MdOutlineEmail />
+                        <MdOutlineEmail className="contact__option-icon" />
                         <h4>Email</h4>
                         <h5>tojikhonov.doniyor@gmail.com</h5>
                         <a
@@ -24,7 +24,7 @@ const Contact = () => {
                         </a>
                     </article>
                     <article className="contact__option">
-                        <RiMessengerLine />
+                        <RiMessengerLine className="contact__option-icon" />
                         <h4>Messenger</h4>
                         <h5>doniyor.tadjikhanov</h5>
                         <a
@@ -35,7 +35,7 @@ const Contact = () => {
                         </a>
                     </article>
                     <article className="contact__option">
-                        <BsWhatsapp />
+                        <BsWhatsapp className="contact__option-icon" />
                         <h4>WhatsApp</h4>
                         <h5>+123456789</h5>
                         <a
