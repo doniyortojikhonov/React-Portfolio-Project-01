@@ -48,3 +48,21 @@ textarea {
     resize: none;
     color: var(--color-white);
 }
+
+/* ================- RESPONSIVENESS ===================== */
+
+/* ======================== Media Querries (Medium Devices)====================== */
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* ======================== Media Querries (Small Devices)====================== */
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        width: var(--container-width-sm);
+    }
+}
